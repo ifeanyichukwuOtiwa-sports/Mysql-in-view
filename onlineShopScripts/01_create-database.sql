@@ -1,1 +1,1 @@
-CREATE SCHEMA online_shop;
+CREATE DATABASE online_shop;
