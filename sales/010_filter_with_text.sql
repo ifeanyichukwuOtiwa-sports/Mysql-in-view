@@ -1,7 +1,7 @@
 USE sales_example;
 
 SELECT * FROM sales
-WHERE customer_name = 'Max Schwartz';
+WHERE customer_name = 'Max Shwartz';
 
 SELECT * FROM sales
 WHERE customer_name <> 'Max Schwartz';
