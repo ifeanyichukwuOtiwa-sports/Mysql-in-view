@@ -1,5 +1,5 @@
-CREATE DATABASE sales_example;
-
+CREATE DATABASE IF NOT EXISTS sales_example;
+USE sales_example;
 DROP TABLE IF EXISTS sales;
 
 CREATE TABLE IF NOT EXISTS sales (
