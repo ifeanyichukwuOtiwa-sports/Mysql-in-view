@@ -7,3 +7,7 @@ FROM users AS u
 SELECT u.first_name AS first_name, a.street_name AS street, a.house_number AS house_number
 FROM addresses AS a
          LEFT JOIN users AS u ON u.address_id = a.id;
+
+SELECT *
+FROM addresses AS a
+LEFT JOIN users AS u ON a.id = u.address_id;
