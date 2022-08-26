@@ -10,4 +10,10 @@ FROM addresses AS a
 
 SELECT *
 FROM addresses AS a
-LEFT JOIN users AS u ON a.id = u.address_id;
+         LEFT JOIN users AS u ON a.id = u.address_id;
+
+
+SELECT *
+FROM addresses AS a
+         LEFT JOIN users AS u ON a.id = u.address_id
+         LEFT JOIN cities c on a.city_id = c.id;
